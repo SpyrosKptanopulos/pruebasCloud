@@ -1,0 +1,41 @@
+/* editando boostrap */
+
+.navbar-default {
+  border:none;
+}
+
+.navbar-header {
+  width:33%;
+}
+
+ul.nav.navbar-nav.menubar-left {
+  font-size: 13px;
+  width:33%;
+}
+
+ul.nav.navbar-nav.menubar-rigth {
+  width: 33%;
+  padding: 0 ;
+}
+
+@media (max-width:1024px) {
+  ul.nav.navbar-nav.menubar-rigth {
+    display:none;
+  }
+
+  ul.nav.navbar-nav.menubar-left {
+    width:auto;
+    float:right;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-header {
+    width:auto;
+  }
+
+  ul.nav.navbar-nav.menubar-left {
+    width:auto;
+    float:left;
+  }
+}
